@@ -17,8 +17,9 @@ import {
 } from "lucide-react";
 
 const linkedinUrl = "https://linkedin.com/in/bidhanpk";
-const cvUrl = "/assets/Bidhan-Kumar-PK-CV.pdf";
-const portraitUrl = "/assets/bidhan-portrait.png";
+const assetBase = import.meta.env.BASE_URL;
+const cvUrl = `${assetBase}assets/Bidhan-Kumar-PK-CV.pdf`;
+const portraitUrl = `${assetBase}assets/bidhan-portrait.png`;
 
 const navItems = [
   ["About", "about"],
